@@ -7,7 +7,7 @@
       "techs": ["Javascript", "HTML", "CSS"],
       "github": "https://github.com/bongomin256/loopstudio-landing-page",
       "liveUrl": "https://bongomin256.github.io/loopstudio-landing-page/",
-      "images": "/images/featured/loopstudio.png"
+      "images": "images/featured/loopstudio.png"
     },
     {
       "id": 2,
