@@ -1,0 +1,87 @@
+{
+  "featured": [
+    {
+      "id": 1,
+      "appName": "loopstudio landing page",
+      "description": "This is loopstudio landing page, it allows users to view the optimal layout for the site depending on their device's screen size and see hover states for all interactive elements on the page ",
+      "techs": ["Javascript", "HTML", "CSS"],
+      "github": "https://github.com/bongomin256/loopstudio-landing-page",
+      "liveUrl": "https://bongomin256.github.io/loopstudio-landing-page/",
+      "images": "images/featured/loopstudio.png"
+    },
+    {
+      "id": 2,
+      "appName": "audiohpile",
+      "description": "This is an eCommerce website that allows user to view the optimal layout for the site depending on their device's screen size, add to cart and checkout",
+      "techs": ["React", "TailwindCss", "CSS"],
+      "github": "https://github.com/bongomin256/audiophile-ecommerce-website",
+      "liveUrl": "",
+      "images": "./images/featured/audiophile.png"
+    },
+    {
+      "id": 3,
+      "appName": "local exchange hub",
+      "description": "In this web app, you can signup and post any used item/s that you would like to get rid of for free or in exchange of something that some other user posted, other than throwing it away to reduce waste and its impact to the environment.",
+      "techs": ["Javascript", "HTML", "CSS", "Handlebars", "MySQL"],
+      "github": "https://github.com/rkutsel/local-exchange-hub",
+      "liveUrl": "https://local-exchange-hub.herokuapp.com/",
+      "images": "./images/featured/localExchangeHub.png"
+    },
+    {
+      "id": 4,
+      "appName": "random recipes generator",
+      "description": "The web app generate random recipes to any ingredients provided.The main aim of this application is to incorporate two APIs (Edemam and Giphy)  and use the  fetched datas to update the page with one api depending on the other.",
+      "techs": ["Javascript", "HTML", "CSS", "Bulma", "APIs"],
+      "github": "https://github.com/bongomin256/Random-Recipe-Generator",
+      "liveUrl": "https://bongomin256.github.io/Random-Recipe-Generator/",
+      "images": "./images/featured/RRG.png"
+    }
+  ],
+  "others": [
+    {
+      "id": 1,
+      "appName": "weather dashboard",
+      "description": "This is a school individual project where we were tasked to design a Weather Dashboard. This appplcation fetches data for any city searched from open weather map API and use the fetched data to update the page.",
+      "techs": ["Javascript", "HTML", "CSS", "APIs"],
+      "github": "https://github.com/bongomin256/Weather-Dashboard",
+      "liveUrl": "https://bongomin256.github.io/Weather-Dashboard/",
+      "images": "./images/others/weather.png"
+    },
+    {
+      "id": 2,
+      "appName": "work day scheduler",
+      "description": "This is Work day planner web application, it is like a to-do app which helps you plan your work day. In the present time the color of the task block is green and if past the hour it changes to grey.",
+      "techs": ["Javascript", "HTML", "CSS"],
+      "github": "https://github.com/bongomin256/Work-Day-Planner",
+      "liveUrl": "https://bongomin256.github.io/Work-Day-Planner/",
+      "images": "./images/others/workdayPlanner.png"
+    },
+    {
+      "id": 3,
+      "appName": "react portfolio",
+      "description": "This is my first react personal portfolio website that i designed after the completion of my bootcamp to showcase the acquired skillsets",
+      "techs": ["React", "Styled-component", "CSS"],
+      "github": "https://github.com/bongomin256/Godfrey-Bongomin",
+      "liveUrl": "https://bongomin256.github.io/Godfrey-Bongomin",
+      "images": "./images/others/react-portfolio.png"
+    }
+  ],
+  "skills": [
+    {
+      "title": "languages",
+      "skillArrs": ["Javascript", "HTML", "CSS"]
+    },
+    {
+      "title": "database",
+      "skillArrs": ["MySQL", "MongoDB", "GraphQL"]
+    },
+    {
+      "title": "Framework",
+      "skillArrs": ["ReactJs", "Bootstrap", "Tailwindcss", "Vue"]
+    },
+    {
+      "title": "tools",
+      "skillArrs": ["VsCode", "Git", "Figma"]
+    }
+  ]
+}
