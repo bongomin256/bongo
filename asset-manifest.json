@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/bongo/static/css/main.bb2a3cb1.css",
+    "main.js": "/bongo/static/js/main.a9d112e3.js",
+    "static/media/myphoto.jpeg": "/bongo/static/media/myphoto.48fab4d3ab1ceb71c42c.jpeg",
+    "index.html": "/bongo/index.html",
+    "main.bb2a3cb1.css.map": "/bongo/static/css/main.bb2a3cb1.css.map",
+    "main.a9d112e3.js.map": "/bongo/static/js/main.a9d112e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb2a3cb1.css",
+    "static/js/main.a9d112e3.js"
+  ]
+}
