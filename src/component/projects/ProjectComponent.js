@@ -11,9 +11,10 @@ const ProjectComponent = () => {
       <h2 className="mb-5 text-xl text-center text-white capitalize">
         <span className="text-pink-main">/</span>projects
       </h2>
+
       <div>
+        <Freelance />
         <div>
-          <Freelance />
           {projects.featured &&
             projects.featured.map((project) => (
               <div

@@ -3,7 +3,16 @@ import myphoto from "../../assets/myphoto.jpeg";
 import { motion } from "framer-motion";
 
 //* React icons
-import { FaCss3Alt, FaJs, FaReact, FaHtml5, FaNodeJs } from "react-icons/fa";
+import {
+  FaCss3Alt,
+  FaJs,
+  FaReact,
+  FaHtml5,
+  FaNodeJs,
+  FaShopify,
+  FaWordpress,
+  FaFigma,
+} from "react-icons/fa";
 import { SiTailwindcss, SiMongodb } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 // import { motion, useAnimation, useInView } from "framer-motion";
@@ -76,6 +85,9 @@ const AboutHome = () => {
             <FaNodeJs />
             <GrMysql />
             <SiMongodb />
+            <FaShopify />
+            <FaWordpress />
+            <FaFigma />
           </div>
         </motion.div>
       </motion.div>
