@@ -7,7 +7,7 @@
       "techs": ["Javascript", "HTML", "CSS"],
       "github": "https://github.com/bongomin256/loopstudio-landing-page",
       "liveUrl": "https://bongomin256.github.io/loopstudio-landing-page/",
-      "images": "images/featured/loopstudio.png"
+      "images": "/godfrey_bongomin/images/featured/loopstudio.png"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "techs": ["React", "TailwindCss", "CSS"],
       "github": "https://github.com/bongomin256/audiophile-ecommerce-website",
       "liveUrl": "",
-      "images": "./images/featured/audiophile.png"
+      "images": "images/featured/audiophile.png"
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@
       "techs": ["Javascript", "HTML", "CSS", "Bulma", "APIs"],
       "github": "https://github.com/bongomin256/Random-Recipe-Generator",
       "liveUrl": "https://bongomin256.github.io/Random-Recipe-Generator/",
-      "images": "./images/featured/RRG.png"
+      "images": "images/featured/RRG.png"
     }
   ],
   "others": [
