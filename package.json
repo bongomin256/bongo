@@ -1,5 +1,6 @@
 {
   "name": "bongo",
+  "homepage": "https://bongomin256.github.io/bongo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +17,8 @@
     "tailwind-scrollbar-hide": "^1.1.7"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
