@@ -1,22 +1,26 @@
 import { NavLink } from "react-router-dom";
+
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 import { Button, Button1, Button2 } from "../constants/btn/Button";
 import { useState } from "react";
 import Logo from "../logo/Logo";
 
+// import { Link } from "react-scroll";
+
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  let Links = [
+  let links = [
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
     { name: "Projects", path: "/projects" },
     { name: "Contact", path: "/contact" },
   ];
+
   return (
     <>
-      <header className="px-5 py-8 md:px-12 lg:px-20 w-full mb-20">
-        <nav className="flex items-center justify-between cursor-pointer w-full ">
+      <header className="sticky top-0 z-20 w-full px-5 py-8 mb-20 transition-all duration-300 ease-in-out bg-bg-main md:px-12 lg:px-20">
+        <nav className="flex items-center justify-between w-full cursor-pointer ">
           <h1 className="text-3xl font-bold text-gray-main">
             <NavLink to="/">
               <span className="text-pink-main">Godfrey</span> Bongomin
@@ -24,7 +28,7 @@ const Navbar = () => {
           </h1>
           <div
             onClick={() => setOpen(!open)}
-            className="lg:hidden text-3xl text-gray-main"
+            className="text-3xl lg:hidden text-gray-main"
           >
             {open ? <AiOutlineClose /> : <BiMenuAltRight />}
           </div>
@@ -39,7 +43,7 @@ const Navbar = () => {
             }`}
             onClick={() => setOpen(false)}
           >
-            {Links.map((link) => (
+            {links.map((link) => (
               <li
                 key={link.name}
                 // className="hover:text-white hover:transition-all hover:ease-in-out hover:duration-300"

@@ -54,27 +54,27 @@ const ContactForm = () => {
       <div className="md:grid md:grid-cols-2 lg:px-32">
         <div className="mb-10">
           <div className="flex items-center gap-5 mb-5">
-            <div className="bg-white text-bg-main rounded-full p-2 ">
-              <SlLocationPin className="h-10 w-10 lg:h-12 lg:w-12" />
+            <div className="p-2 bg-white rounded-full text-bg-main ">
+              <SlLocationPin className="w-10 h-10 lg:h-12 lg:w-12" />
             </div>
             <div>
-              <h5 className="text-lg text-white font-semibold lg:text-xl">
+              <h5 className="text-lg font-semibold text-white lg:text-xl">
                 Location
               </h5>
-              <p className="text-gray-main font-light italic lg:text-lg">
+              <p className="italic font-light text-gray-main lg:text-lg">
                 Seattle, WA
               </p>
             </div>
           </div>
           <div className="flex items-center gap-5">
-            <div className="bg-white text-bg-main rounded-full p-2">
-              <SlEnvolope className="h-10 w-10 lg:h-12 lg:w-12" />
+            <div className="p-2 bg-white rounded-full text-bg-main">
+              <SlEnvolope className="w-10 h-10 lg:h-12 lg:w-12" />
             </div>
             <div>
-              <h5 className="text-lg text-white font-semibold lg:text-xl">
+              <h5 className="text-lg font-semibold text-white lg:text-xl">
                 Email Address
               </h5>
-              <p className="text-gray-main font-light italic lg:text-lg ">
+              <p className="italic font-light text-gray-main lg:text-lg ">
                 gobongomin@gmail.com
               </p>
             </div>
@@ -83,7 +83,7 @@ const ContactForm = () => {
         <div>
           <form id="contact_form" onSubmit={sendEmail} ref={form}>
             <input
-              className="mb-5 bg-bg-main border-2 border-gray-main p-2 w-full focus:bg-white active:border-none focus:text-gray-main"
+              className="w-full p-2 mb-5 border-2 bg-bg-main border-gray-main focus:bg-white active:border-none focus:text-gray-main"
               type="text"
               id="name"
               value={name}
@@ -91,7 +91,7 @@ const ContactForm = () => {
               placeholder="Name"
             />
             <input
-              className="mb-5 bg-bg-main border-2 border-gray-main p-2 w-full  focus:bg-white focus:border-none focus:text-gray-main"
+              className="w-full p-2 mb-5 border-2 bg-bg-main border-gray-main focus:bg-white focus:border-none focus:text-gray-main"
               type="text"
               id="email"
               value={email}
@@ -99,7 +99,7 @@ const ContactForm = () => {
               onChange={handleEmail}
             />
             <textarea
-              className=" bg-bg-main border-2 mb-3 border-gray-main p-2 w-full  focus:bg-white focus:border-none focus:text-gray-main"
+              className="w-full p-2 mb-3 border-2 bg-bg-main border-gray-main focus:bg-white focus:border-none focus:text-gray-main"
               name="message"
               id="message"
               value={message}

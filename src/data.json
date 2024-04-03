@@ -1,7 +1,34 @@
 {
+  "realwork": [
+    {
+      "id": 1,
+      "appName": "Creative Women",
+      "description": "Home decoration e-Commerces website that allows users to creat an account, add to cart and checkout. It is responsive website that and compatible to all device sizes",
+      "techs": ["Shopify", "Custom HTML", "Custome CSS"],
+      "liveUrl": "https://creativewomen.net/",
+      "images": "./images/featured/creativewomen1.png"
+    },
+    {
+      "id": 2,
+      "appName": "Bee Organized",
+      "description": "professional home and life organizing company that specializes in simplifying your space so that you can be more efficient, present and peaceful at home and beyond.",
+      "techs": ["Wordpress", "Custom HTML", "Custome CSS"],
+      "liveUrl": "https://beeorganized.com/",
+      "images": "./images/featured/beeorganize.png"
+    }
+  ],
   "featured": [
     {
       "id": 1,
+      "appName": "audiohpile",
+      "description": "This is an eCommerce website that allows user to view the optimal layout for the site depending on their device's screen size, add to cart and checkout",
+      "techs": ["React", "TailwindCss", "CSS"],
+      "github": "https://github.com/bongomin256/audiophile-ecommerce-website",
+      "liveUrl": "https://audiophile-ecommerce-website-blue.vercel.app/",
+      "images": "./images/featured/audiophile.png"
+    },
+    {
+      "id": 2,
       "appName": "loopstudio landing page",
       "description": "This is loopstudio landing page, it allows users to view the optimal layout for the site depending on their device's screen size and see hover states for all interactive elements on the page ",
       "techs": ["Javascript", "HTML", "CSS"],
@@ -9,15 +36,7 @@
       "liveUrl": "https://bongomin256.github.io/loopstudio-landing-page/",
       "images": "./images/featured/loopstudio.png"
     },
-    {
-      "id": 2,
-      "appName": "audiohpile",
-      "description": "This is an eCommerce website that allows user to view the optimal layout for the site depending on their device's screen size, add to cart and checkout",
-      "techs": ["React", "TailwindCss", "CSS"],
-      "github": "https://github.com/bongomin256/audiophile-ecommerce-website",
-      "liveUrl": "",
-      "images": "./images/featured/audiophile.png"
-    },
+
     {
       "id": 3,
       "appName": "local exchange hub",

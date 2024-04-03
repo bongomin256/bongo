@@ -1,10 +1,9 @@
 import { Button1, Button2 } from "../constants/btn/Button";
 
 import projects from "../../data.json";
-import { Freelance } from "../realwork/Freelance";
 import { motion } from "framer-motion";
 
-const ProjectHome = () => {
+export const Freelance = () => {
   return (
     <section className="px-5 mb-48 project md:px-12 lg:px-32">
       <motion.div
@@ -40,9 +39,8 @@ const ProjectHome = () => {
           visible: { opacity: 1, x: 0 },
         }}
       >
-        <Freelance />
-        {projects.featured &&
-          projects.featured.map((project) => (
+        {projects.realwork &&
+          projects.realwork.map((project) => (
             <div
               key={project.id}
               className="p-4 mb-8 text-center rounded-lg bg-bg-modal lg:grid lg:grid-cols-2 lg:gap-10 lg:items-center lg:px-8"
@@ -97,12 +95,12 @@ const ProjectHome = () => {
                       visible: { opacity: 1, x: 0 },
                     }}
                   >
-                    <a href={project.github} target="_blank" rel="noreferrer">
-                      <Button1>Github </Button1>
-                    </a>
                     <a href={project.liveUrl} target="_blank" rel="noreferrer">
-                      <Button2>Live</Button2>
+                      <Button1>View Work </Button1>
                     </a>
+                    {/* <a href={project.liveUrl} target="_blank" rel="noreferrer">
+                      <Button2>Live</Button2>
+                    </a> */}
                   </motion.div>
                   <div className="border-t-2 border-gray-main">
                     <ul className="flex flex-wrap justify-center gap-2 pt-2 font-light text-pink-main md:justify-start">
@@ -130,5 +128,3 @@ const ProjectHome = () => {
     </section>
   );
 };
-
-export default ProjectHome;
